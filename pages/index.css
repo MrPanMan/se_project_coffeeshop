@@ -151,8 +151,8 @@
   justify-content: center;
   position: relative;
   width: 100%;
-  padding-top: 56.25%;
-  margin-bottom: 20px;
+  margin-bottom: 215px;
+  margin-top: 80px;
 }
 
 .recipes__title {
@@ -177,5 +177,4 @@
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
-  margin-bottom: 80px;
 }

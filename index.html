@@ -26,29 +26,73 @@
   <body>
     <div class="page">
       <header class="header">
-        <img
-          src="./images/logo_coffeeshop_dark.svg"
-          alt="Interior Coffee Shop"
-        />
-        <ul>
-          <li>recipes</li>
-          <li>book a table</li>
-          <li>menu</li>
-          <li>contacts</li>
-        </ul>
-        <h1>Speicalty coffee in the peaks libary</h1>
-        <p>
+        <nav class="nav">
+          <img
+            class="nav__logo"
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Coffee Shop Logo"
+          />
+          <ul class="nav__links">
+            <li><a href="#recipes" class="nav__link">recipes</a></li>
+            <li><a href="" class="nav__link" nav__link>book a table</a></li>
+            <li><a href="" class="nav__link" nav__link>menu</a></li>
+            <li><a href="" class="nav__link">contacts</a></li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Speicalty coffee</span>
+          in the Triple Peaks Libary
+        </h1>
+        <p class="header__description">
           welcome to our study zone! we've got the coffee to energize you and
           the cozy vibes to get you creative
         </p>
-        <img src="./images/inside_coffee_shop.png" alt="Coffee Shop Logo" />
-        <p>Hours</p>
-        <p>Monday-friday(10:00-19:00)</p>
-        <p>Saturday-Sunday(11:00-18:00)</p>
-        <p>200 Success Avenue, The Town of Triple Peaks/></p>
+        <img
+          class="header__image"
+          src="./images/inside_coffee_shop.png"
+          alt="Coffee Shop Logo"
+        />
+        <div class="header__footer">
+          <div>
+            <p class="header__paragraph">Hours</p>
+            <p class="header__paragraph">Monday-friday(10:00-19:00)</p>
+            <p class="header__paragraph">Saturday-Sunday(11:00-18:00)</p>
+          </div>
+          <p class="header__paragraph_paragraph-right">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
       </header>
       <main class="content">
-        <section class="recipes"></section>
+        <section class="recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home brewing
+            convenience:
+          </p>
+          <div class="recipes__videos">
+            <div>
+              <iframe
+                src="https://youtu.be/j6VlT_jUVPc?si=PIrXUKSnD0XzxqRj"
+                class="recipes__iframe"
+              >
+              </iframe>
+              <p class="recipes__video-caption" alt="Aeropress Recipe">
+                <span>Aeropress recipe</span> ~5min
+              </p>
+            </div>
+            <div>
+              <iframe
+                src="https://youtu.be/st571DYYTR8?si=urJ1VeVqLt3lnI8j"
+                class="recipes__iframe"
+              >
+              </iframe>
+              <p class="recipes__video-caption" alt="French Press Video">
+                <span>press recipe</span> ~15min
+              </p>
+            </div>
+          </div>
+        </section>
         <section class="reservation"></section>
         <section class="menu"></section>
         <section class="about"></section>

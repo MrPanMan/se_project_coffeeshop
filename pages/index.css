@@ -253,12 +253,13 @@
   line-height: 52px;
 }
 
-.form__checkbox_form__checkbox_container {
+.form__label_form__label_type_checkbox {
   margin-bottom: 120px;
   margin-right: 12px;
-}
-
-.checkbox__container {
   display: flex;
   justify-content: center;
+}
+
+.form__checkbox {
+  justify-content: space-between;
 }

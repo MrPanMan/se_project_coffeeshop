@@ -1,0 +1,61 @@
+.about {
+  background-color: #0a2850;
+  position: relative;
+  overflow: hidden;
+}
+
+.about__circle {
+  height: 426px;
+  width: 426px;
+  background-color: #1878dc;
+  border: solid 1px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+}
+
+.about__circle_animation_blurred {
+  height: 426px;
+  width: 426px;
+  background-color: #1878dc;
+  border: solid 1px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  animation: pulsate 1.3s ease-in-out infinite;
+}
+
+.about__title {
+  max-width: 251px;
+  margin: 100px 0 0 80px;
+  position: relative;
+  z-index: 1;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.about__pragraph {
+  max-width: 660px;
+  gap: 20px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__paragraphs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__content {
+  margin: 119px 80px 173px 0;
+}

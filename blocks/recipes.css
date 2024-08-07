@@ -1,0 +1,65 @@
+.recipes {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #0a2750;
+  background-image: url(file:///C:/Users/jonwa/projects/se_project_coffeeshop/images/background_recipes.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.recipes__iframe {
+  margin: auto;
+  height: 273px;
+  width: 480px;
+  border: none;
+}
+
+.recipes__video-caption {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 215px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.recipes__videos {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  margin-bottom: 215px;
+  margin-top: 80px;
+}
+
+.recipes__title {
+  max-width: 580px;
+  margin-top: 100px;
+  margin-left: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #ffffff;
+}
+
+.recipes__subtitle {
+  margin-top: 24px;
+  margin-left: 80px;
+  max-width: 438px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}

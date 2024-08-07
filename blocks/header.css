@@ -1,0 +1,73 @@
+.header {
+  background-color: #ffffff;
+  padding: 30px 80px 40px;
+  min-height: 720px;
+  display: flex;
+  flex-direction: column;
+  max-height: 800px;
+  height: 100vh;
+  background-image: url(file:///C:/Users/jonwa/projects/se_project_coffeeshop/images/background_header.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  position: relative;
+}
+
+.header__image {
+  position: absolute;
+  width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
+}
+
+.header__title {
+  max-width: 729px;
+  margin: 183px 80px 0;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -6px;
+  font-weight: 500;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.header__description {
+  max-width: 683px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 28px 80px 0;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  align-items: flex-end;
+  margin: 183px 80px 40px;
+  margin-right: 80px;
+  margin-bottom: 40px;
+}
+
+.header__paragraph {
+  margin-bottom: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}

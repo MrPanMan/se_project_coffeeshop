@@ -3,6 +3,7 @@
   background-image: url(../images/background_recipes.svg);
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 
 .recipes__iframe {

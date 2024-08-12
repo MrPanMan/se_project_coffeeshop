@@ -2,6 +2,8 @@
   background-color: #0a2850;
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about__circle {
@@ -35,7 +37,6 @@
   position: relative;
   z-index: 1;
   font-family: "Inter" Arial, sans-serif;
-
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -43,7 +44,7 @@
   color: white;
 }
 
-.about__pragraph {
+.about__paragraph {
   max-width: 660px;
   gap: 20px;
   font-family: "Noto Serif" Arial, sans-serif;
@@ -55,11 +56,21 @@
   margin: 0;
 }
 
-.about__paragraphs {
-  display: flex;
-  justify-content: space-between;
-}
-
 .about__content {
   margin: 119px 80px 173px 0;
+  display: grid;
+  gap: 20px;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
 }

@@ -47,7 +47,7 @@
 .about__paragraph {
   max-width: 660px;
   gap: 20px;
-  font-family: "Noto Serif" Arial, sans-serif;
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

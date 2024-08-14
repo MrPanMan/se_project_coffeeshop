@@ -10,7 +10,7 @@
   gap: 20px;
   list-style-type: none;
   color: #000;
-  font-family: "Inter" Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -24,11 +24,12 @@
 
 .nav__link:hover {
   opacity: 0.5;
+  transition: 0.5s ease-in-out;
 }
 
 .nav__logo {
   position: relative;
-  left: -50px;
+  margin: 30px 30px 0;
   width: 105px;
   height: 39px;
 }

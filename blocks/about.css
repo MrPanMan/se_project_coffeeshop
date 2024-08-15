@@ -16,9 +16,6 @@
   position: absolute;
   top: -152px;
   left: -129px;
-}
-
-.about__circle_animation_blurred {
   height: 426px;
   width: 426px;
   background-color: #1878dc;
@@ -28,6 +25,9 @@
   position: absolute;
   top: -152px;
   left: -129px;
+}
+
+.about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite;
 }
 

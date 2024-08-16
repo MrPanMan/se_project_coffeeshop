@@ -30,6 +30,7 @@
   font-weight: 500;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
+  z-index: 2;
 }
 
 .header__description {
